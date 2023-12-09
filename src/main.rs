@@ -14,8 +14,13 @@ async fn main() {
 
     let opts = CliOpts::parse();
 
+    let mut packages = Vec::new();
     let cargo = Cargo::new();
 
-    let packages = cargo.search(&opts.query).await.unwrap();
+    match cargo.search(&opts.query).await {
+        Ok(val) => packages.extend(val),
+        Err(err) => println!("Error getting cargo results: {:?}", err),
+    };
+
     println!("{}", serde_json::to_string_pretty(&packages).unwrap());
 }

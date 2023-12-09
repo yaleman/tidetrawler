@@ -5,6 +5,9 @@ pub struct Npm;
 
 #[async_trait]
 impl Repository for Npm {
+    fn repo_type() -> crate::RepoType {
+        crate::RepoType::Npm
+    }
     fn new() -> Self {
         Self {}
     }

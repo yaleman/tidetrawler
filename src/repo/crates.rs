@@ -24,19 +24,26 @@ struct IndexPackage {
     yanked: bool,
 }
 
+// Data's also available at
+// https://github.com/rust-lang/crates.io-index
+
 impl From<IndexPackage> for Package {
     fn from(pkg: IndexPackage) -> Self {
         let mut other_metadata = HashMap::new();
-        other_metadata.insert("checksum".to_string(), pkg.cksum);
-        other_metadata.insert("yanked".to_string(), pkg.yanked.to_string());
+        other_metadata.insert("checksum".to_string(), Value::String(pkg.cksum));
+        other_metadata.insert("yanked".to_string(), Value::String(pkg.yanked.to_string()));
         if !pkg.features.is_empty() {
-            other_metadata.insert("features".to_string(), format!("{:?}", pkg.features));
+            other_metadata.insert(
+                "features".to_string(),
+                Value::from(format!("{:?}", pkg.features)),
+            );
         }
         Self {
             name: pkg.name.clone(),
             url: Some(format!("https://crates.io/crates/{}", pkg.name)),
             owner: None,
             other_metadata,
+            repo_type: crate::RepoType::Cargo,
         }
     }
 }
@@ -50,6 +57,10 @@ impl Repository for Cargo {
         Self {}
     }
 
+    fn repo_type() -> crate::RepoType {
+        crate::RepoType::Cargo
+    }
+
     async fn search(&self, query: &str) -> Result<Vec<Package>, Errors> {
         let mut url = reqwest::Url::from_str(CARGO_API_URL)
             .expect("Failed to turn static crates URL into a URL object!");
@@ -61,10 +72,10 @@ impl Repository for Cargo {
         let cratedata: CratesResponse = res.json().await?;
 
         if let Some(crates) = cratedata.crates {
-            crates.into_iter().for_each(|crt| {
+            for crt in crates {
                 let package: Package = crt.into();
                 packages.push(package);
-            });
+            }
         }
 
         Ok(packages)
@@ -95,16 +106,15 @@ impl Repository for Cargo {
         // finding base64 gets you to
         // https://index.crates.io/ba/se/base64
 
-        let res: Vec<Package> = resp
-            .text()
-            .await?
-            .lines()
-            .filter_map(|line| {
-                let val: Option<IndexPackage> = serde_json::from_str(line).ok();
-                val.map(|v| v.into())
-            })
-            .collect();
-        // let res: Vec<Package> = resp.json().await?;
+        let res_text = resp.text().await?;
+        let mut res: Vec<Package> = Vec::new();
+        for line in res_text.lines() {
+            let val = serde_json::from_str::<IndexPackage>(line).ok();
+            if let Some(val) = val {
+                res.push(val.into());
+            }
+        }
+
         Ok(res)
     }
 
@@ -218,56 +228,74 @@ pub struct Crate {
 
 impl From<Crate> for Package {
     fn from(value: Crate) -> Self {
-        let mut other_metadata = HashMap::new();
+        let mut other_metadata: HashMap<String, Value> = HashMap::new();
 
-        other_metadata.insert("id".to_string(), value.id.clone());
+        other_metadata.insert("id".to_string(), Value::String(value.id.clone()));
         if let Some(badges) = value.badges {
-            other_metadata.insert("badges".to_string(), badges.join(","));
+            other_metadata.insert("badges".to_string(), Value::String(badges.join(",")));
         }
         if let Some(categories) = value.categories {
-            other_metadata.insert("categories".to_string(), categories.join(","));
+            other_metadata.insert(
+                "categories".to_string(),
+                Value::String(categories.join(",")),
+            );
         }
         other_metadata.insert(
             "created_at".to_string(),
-            value.created_at.clone().to_rfc3339(),
+            Value::String(value.created_at.clone().to_rfc3339()),
         );
         if let Some(description) = value.description {
-            other_metadata.insert("description".to_string(), description);
+            other_metadata.insert("description".to_string(), Value::String(description));
         }
         if let Some(documentation) = value.documentation {
-            other_metadata.insert("documentation".to_string(), documentation);
+            other_metadata.insert("documentation".to_string(), Value::String(documentation));
         }
         if let Some(downloads) = value.downloads {
-            other_metadata.insert("downloads".to_string(), downloads.to_string());
+            other_metadata.insert(
+                "downloads".to_string(),
+                Value::String(downloads.to_string()),
+            );
         }
-        other_metadata.insert("exact_match".to_string(), value.exact_match.to_string());
+        other_metadata.insert(
+            "exact_match".to_string(),
+            Value::String(value.exact_match.to_string()),
+        );
         if let Some(keywords) = value.keywords {
-            other_metadata.insert("keywords".to_string(), keywords.join(","));
+            other_metadata.insert("keywords".to_string(), Value::String(keywords.join(",")));
         }
         for (link_name, link_value) in value.links {
             // TODO: prefix this with the crates URL
-            other_metadata.insert(link_name, link_value);
+            other_metadata.insert(link_name, Value::String(link_value));
         }
         other_metadata.insert(
             "max_stable_version".to_string(),
-            value.max_stable_version.clone(),
+            Value::String(value.max_stable_version.clone()),
         );
-        other_metadata.insert("max_version".to_string(), value.max_version.clone());
-        other_metadata.insert("newest_version".to_string(), value.newest_version.clone());
+        other_metadata.insert(
+            "max_version".to_string(),
+            Value::String(value.max_version.clone()),
+        );
+        other_metadata.insert(
+            "newest_version".to_string(),
+            Value::String(value.newest_version.clone()),
+        );
 
         other_metadata.insert(
             "recent_downloads".to_string(),
-            value.recent_downloads.to_string(),
+            Value::String(value.recent_downloads.to_string()),
         );
 
         if let Some(repository) = value.repository {
-            other_metadata.insert("repository".to_string(), repository);
+            other_metadata.insert("repository".to_string(), Value::String(repository));
         }
 
-        other_metadata.insert("updated_at".to_string(), value.updated_at.to_string());
+        other_metadata.insert(
+            "updated_at".to_string(),
+            Value::String(value.updated_at.to_string()),
+        );
 
         if let Some(versions) = value.versions {
-            other_metadata.insert("versions".to_string(), versions.join(","));
+            other_metadata.insert("versions".to_string(), Value::String(versions.join(",")));
         }
 
         Package {
@@ -275,6 +303,7 @@ impl From<Crate> for Package {
             url: value.homepage,
             owner: None,
             other_metadata,
+            repo_type: crate::RepoType::Cargo,
         }
     }
 }

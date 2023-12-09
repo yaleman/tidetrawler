@@ -1,10 +1,13 @@
 use std::path::PathBuf;
 use std::time::SystemTimeError;
 
-use repo::Repository;
+use serde::{Deserialize, Serialize};
 
 pub mod repo;
 pub mod request;
+
+#[cfg(test)]
+mod tests;
 
 #[derive(Debug)]
 pub enum Errors {
@@ -67,19 +70,9 @@ pub fn file_older_than(filepath: &PathBuf, min_age: u64) -> Result<bool, Errors>
     }
 }
 
-#[derive(Debug)]
+#[derive(Debug, Serialize, Deserialize)]
 pub enum RepoType {
     Cargo,
     PyPi,
     Npm,
-}
-
-impl RepoType {
-    fn as_repo(&self) -> Box<dyn Repository> {
-        match &self {
-            RepoType::Cargo => repo::crates::Cargo::new(),
-            RepoType::PyPi => repo::pypi::PyPi::new(),
-            RepoType::Npm => repo::npm::Npm::new(),
-        }
-    }
 }

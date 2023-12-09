@@ -1,4 +1,4 @@
-use crate::{get_cache_dir, Errors};
+use crate::{get_cache_dir, Errors, RepoType};
 
 pub mod crates;
 pub mod npm;
@@ -18,17 +18,19 @@ pub struct PackageVersion {
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct Package {
-    name: String,
-    url: Option<String>,
+    pub name: String,
+    pub url: Option<String>,
     // version: String,
-    owner: Option<String>,
+    pub owner: Option<String>,
     // release_date: DateTime<chrono::Utc>,
-    other_metadata: HashMap<String, String>,
+    pub other_metadata: HashMap<String, Value>,
+    pub repo_type: RepoType,
 }
 
 #[async_trait]
 pub trait Repository {
     fn new() -> Self;
+    fn repo_type() -> RepoType;
     async fn search(&self, query: &str) -> Result<Vec<Package>, Errors>;
     async fn get_package(&self, name: &str) -> Result<Vec<Package>, Errors>;
     async fn cacheable(&self) -> bool;
