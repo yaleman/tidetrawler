@@ -3,6 +3,7 @@ use std::time::SystemTimeError;
 
 use serde::{Deserialize, Serialize};
 
+pub mod cache;
 pub mod repo;
 pub mod request;
 
@@ -25,6 +26,7 @@ impl From<&reqwest::Error> for Errors {
         Self::Generic(format!("reqwest error: {:?}", err))
     }
 }
+
 impl From<std::io::Error> for Errors {
     fn from(err: std::io::Error) -> Self {
         Self::Generic(format!("{:?}", err))

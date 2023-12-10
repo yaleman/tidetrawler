@@ -29,10 +29,10 @@ pub struct Package {
 
 #[async_trait]
 pub trait Repository {
-    fn new() -> Self;
+    fn new(cache: Arc<RwLock<Cache>>) -> Self;
     fn repo_type() -> RepoType;
-    async fn search(&self, query: &str) -> Result<Vec<Package>, Errors>;
-    async fn get_package(&self, name: &str) -> Result<Vec<Package>, Errors>;
+    async fn search(&mut self, query: &str) -> Result<Vec<Package>, Errors>;
+    async fn get_package(&mut self, name: &str) -> Result<Vec<Package>, Errors>;
     async fn cacheable(&self) -> bool;
     async fn update_cache(&self, min_age: Option<u64>) -> Result<(), Errors>;
     fn get_cache_dir(&self) -> String;

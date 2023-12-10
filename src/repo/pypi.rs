@@ -1,17 +1,13 @@
 //! Repository hooks for PyPi
 //!
+//! API reference for PyPi - <https://warehouse.pypa.io/api-reference/>
 
 use super::prelude::*;
 
-// possible implementation here? https://github.com/victorgarric/pip_search/blob/master/pip_search/pip_search.py
-
-// const PYPI_SEARCH_URL: &str = "https://pypi.org/search/";
-/// Put the package name on the end of this URL
-
-// const PYPI_REPO_URL: &str = "https://pypi.org/project/{}";
-
 #[derive(Debug)]
-pub struct PyPi;
+pub struct PyPi {
+    pub cache: Arc<RwLock<Cache>>,
+}
 
 #[derive(Deserialize, Serialize, Debug, Clone)]
 pub(crate) struct PyPiPackageInfo {
@@ -80,29 +76,29 @@ impl From<PyPiPackage> for Package {
             url: Some(value.info.package_url),
             owner: Some(owner),
             other_metadata,
-            repo_type: crate::RepoType::PyPi,
+            repo_type: RepoType::PyPi,
         }
     }
 }
 
 #[async_trait]
 impl Repository for PyPi {
-    fn repo_type() -> crate::RepoType {
-        crate::RepoType::PyPi
+    fn repo_type() -> RepoType {
+        RepoType::PyPi
     }
-    fn new() -> Self {
-        Self {}
+    fn new(cache: Arc<RwLock<Cache>>) -> Self {
+        Self { cache }
     }
     fn get_cache_dir(&self) -> String {
         "pypi/".to_string()
     }
 
-    async fn search(&self, _query: &str) -> Result<Vec<Package>, Errors> {
+    async fn search(&mut self, _query: &str) -> Result<Vec<Package>, Errors> {
         // make_cache_dir()?;
         todo!()
     }
 
-    async fn get_package(&self, name: &str) -> Result<Vec<Package>, Errors> {
+    async fn get_package(&mut self, name: &str) -> Result<Vec<Package>, Errors> {
         let client = WebClient::default();
         let url = format!("https://pypi.org/pypi/{}/json", name);
         let res = client.client.get(&url).send().await?;
@@ -113,7 +109,7 @@ impl Repository for PyPi {
     }
 
     async fn cacheable(&self) -> bool {
-        todo!()
+        true
     }
 
     async fn update_cache(&self, _min_age: Option<u64>) -> Result<(), Errors> {

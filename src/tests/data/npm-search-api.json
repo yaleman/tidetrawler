@@ -1,0 +1,1363 @@
+{
+    "formData": {
+        "search": {
+            "q": {
+                "value": "api"
+            }
+        }
+    },
+    "objects": [
+        {
+            "package": {
+                "name": "api",
+                "scope": "unscoped",
+                "version": "6.1.1",
+                "description": "Magical SDK generation from an OpenAPI definition 🪄",
+                "keywords": [
+                    "api",
+                    "openapi",
+                    "sdk",
+                    "swagger"
+                ],
+                "date": {
+                    "ts": 1692389286370,
+                    "rel": "4 months ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/api",
+                    "homepage": "https://api.readme.dev",
+                    "repository": "https://github.com/readmeio/api",
+                    "bugs": "https://github.com/readmeio/api/issues"
+                },
+                "author": {
+                    "name": "Jon Ursenbach",
+                    "email": "jon@readme.io"
+                },
+                "publisher": {
+                    "name": "jonursenbach",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9jMDhhMDY3ZTc1ODQ4MmYxY2VkMzU1NzQ5NDFjN2I3Yj9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.4Q9K0oksXOxNDkavd24I2-0JSC3n9nxoH7nhkVTEO8U",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9jMDhhMDY3ZTc1ODQ4MmYxY2VkMzU1NzQ5NDFjN2I3Yj9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.6J0jzXWjQUz4bxTVN3kt_iNGknGL0QCrF1gtTTUnKzg",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9jMDhhMDY3ZTc1ODQ4MmYxY2VkMzU1NzQ5NDFjN2I3Yj9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.-XYeDmFQ4Jp5S3Vsu76vP5KwgkY9MGqgPRuQtqATf1A"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "gratcliff",
+                        "email": "gabriel@readme.io"
+                    },
+                    {
+                        "username": "dannobytes",
+                        "email": "dannlee@gmail.com"
+                    },
+                    {
+                        "username": "gkoberger",
+                        "email": "gkoberger@gmail.com"
+                    },
+                    {
+                        "username": "domharrington",
+                        "email": "domharrington+npm@protonmail.com"
+                    },
+                    {
+                        "username": "mjcuva",
+                        "email": "marc@readme.io"
+                    },
+                    {
+                        "username": "kanadgupta",
+                        "email": "npm@kanad.dev"
+                    },
+                    {
+                        "username": "jonursenbach",
+                        "email": "jon@ursenba.ch"
+                    },
+                    {
+                        "username": "rafegoldberg",
+                        "email": "rafegoldberg@gmail.com"
+                    },
+                    {
+                        "username": "dashron",
+                        "email": "ahh@fastmail.com"
+                    },
+                    {
+                        "username": "iliast",
+                        "email": "iliastsangaris@gmail.com"
+                    },
+                    {
+                        "username": "owlbert",
+                        "email": "support@readme.io"
+                    }
+                ],
+                "keywordsTruncated": false
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.2920477571998378,
+                "detail": {
+                    "quality": 0.42657724768369254,
+                    "popularity": 0.13545118922303823,
+                    "maintenance": 0.3333333333333333
+                }
+            },
+            "searchScore": 100000.266
+        },
+        {
+            "package": {
+                "name": "aws-sdk",
+                "scope": "unscoped",
+                "version": "2.1515.0",
+                "description": "AWS SDK for JavaScript",
+                "keywords": [
+                    "api",
+                    "amazon",
+                    "aws",
+                    "ec2",
+                    "simpledb",
+                    "s3",
+                    "sqs",
+                    "ses",
+                    "sns",
+                    "route53",
+                    "rds",
+                    "elasticache",
+                    "cloudfront",
+                    "fps"
+                ],
+                "date": {
+                    "ts": 1702063885157,
+                    "rel": "a day ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/aws-sdk",
+                    "homepage": "https://github.com/aws/aws-sdk-js",
+                    "repository": "https://github.com/aws/aws-sdk-js",
+                    "bugs": "https://github.com/aws/aws-sdk-js/issues"
+                },
+                "author": {
+                    "name": "Amazon Web Services",
+                    "url": "https://aws.amazon.com/"
+                },
+                "publisher": {
+                    "name": "aws-sdk-bot",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9hNWQwMmQ0YjNmMzgyNmY0YzM3NTFiNTgyMDdmYTc2YT9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.oTev_YYe_Cbvf_3Nx8pR-TCh9iAvxQXSU38nfWZ0AuU",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9hNWQwMmQ0YjNmMzgyNmY0YzM3NTFiNTgyMDdmYTc2YT9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.my80Ah96DI3V5jZ0G35bIbwvdEn2leTCksFTnLi7bCQ",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9hNWQwMmQ0YjNmMzgyNmY0YzM3NTFiNTgyMDdmYTc2YT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.qSx7FlqmpxtWOtcI3O2kaictE5P7hPFe0wtP5pbsAyU"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "mattsb42-aws",
+                        "email": "bullocm@amazon.com"
+                    },
+                    {
+                        "username": "kuhe",
+                        "email": "george.jing.fu+npm@gmail.com"
+                    },
+                    {
+                        "username": "amzn-oss",
+                        "email": "osa-3p@amazon.com"
+                    },
+                    {
+                        "username": "aws-sdk-bot",
+                        "email": "aws-sdk-js-automation@amazon.com"
+                    },
+                    {
+                        "username": "trivikr-aws",
+                        "email": "trivikr@amazon.com"
+                    }
+                ],
+                "keywordsTruncated": true
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.6230560042338311,
+                "detail": {
+                    "quality": 0.9140022778530077,
+                    "popularity": 0.6633961548893205,
+                    "maintenance": 0.3333333333333333
+                }
+            },
+            "searchScore": 0.024413584
+        },
+        {
+            "package": {
+                "name": "object.values",
+                "scope": "unscoped",
+                "version": "1.1.7",
+                "description": "ES2017 spec-compliant Object.values shim.",
+                "keywords": [
+                    "Object.values",
+                    "Object.keys",
+                    "Object.entries",
+                    "values",
+                    "ES7",
+                    "ES8",
+                    "ES2017",
+                    "shim",
+                    "object",
+                    "keys",
+                    "entries",
+                    "polyfill",
+                    "es-shim API"
+                ],
+                "date": {
+                    "ts": 1693203450803,
+                    "rel": "3 months ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/object.values",
+                    "homepage": "https://github.com/es-shims/Object.values#readme",
+                    "repository": "https://github.com/es-shims/Object.values",
+                    "bugs": "https://github.com/es-shims/Object.values/issues"
+                },
+                "author": {
+                    "name": "Jordan Harband",
+                    "email": "ljharb@gmail.com",
+                    "username": "ljharb"
+                },
+                "publisher": {
+                    "name": "ljharb",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.NDVx82tXkJjt2pEPIKQWZgeRdEaHJMZDGFeHTsyexhI",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.nCHcIiwqSZvKcrmxYjUNs2EAv6uY4Nh7I0pfn78b8fo",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.40Yl7FmoFTPGitbOAzR5joAcEaP-NQ3mRVzI5h5ok-g"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "ljharb",
+                        "email": "ljharb@gmail.com"
+                    }
+                ],
+                "keywordsTruncated": false
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.6038170464757509,
+                "detail": {
+                    "quality": 0.9890616312139091,
+                    "popularity": 0.5483533007922116,
+                    "maintenance": 0.3290711480980118
+                }
+            },
+            "searchScore": 0.021981096
+        },
+        {
+            "package": {
+                "name": "isomorphic-fetch",
+                "scope": "unscoped",
+                "version": "3.0.0",
+                "description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+                "date": {
+                    "ts": 1600846029864,
+                    "rel": "3 years ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/isomorphic-fetch",
+                    "homepage": "https://github.com/matthew-andrews/isomorphic-fetch/issues",
+                    "repository": "https://github.com/matthew-andrews/isomorphic-fetch",
+                    "bugs": "https://github.com/matthew-andrews/isomorphic-fetch/issues"
+                },
+                "author": {
+                    "name": "Matt Andrews",
+                    "email": "matt@mattandre.ws",
+                    "username": "mattandrews"
+                },
+                "publisher": {
+                    "name": "mattandrews",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci81ZGI3NDBhZjJhZmYwYTc0MmMyYzM3MjY4MzgxNjY4MT9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.r0_VFwRMcza0TEAlFOYTL1vG4IiXbXTLpjqfeicw9Jc",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci81ZGI3NDBhZjJhZmYwYTc0MmMyYzM3MjY4MzgxNjY4MT9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.Hc_CWZPqdqmU6D2dqyrLND_TYoC3xc5ij8VoT0tbf3k",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci81ZGI3NDBhZjJhZmYwYTc0MmMyYzM3MjY4MzgxNjY4MT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.rbV3Cji_PHzgzH864SgjZzz0ZRfmFI9aTF4KdNaInF0"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "mattandrews",
+                        "email": "matt@mattandre.ws"
+                    },
+                    {
+                        "username": "the-ft",
+                        "email": "strategic.products+npm@ft.com"
+                    }
+                ],
+                "keywordsTruncated": false,
+                "keywords": []
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.589385178946819,
+                "detail": {
+                    "quality": 0.9008883228595153,
+                    "popularity": 0.5788578784421194,
+                    "maintenance": 0.3329097846692073
+                }
+            },
+            "searchScore": 0.019427007
+        },
+        {
+            "package": {
+                "name": "buffer",
+                "scope": "unscoped",
+                "version": "6.0.3",
+                "description": "Node.js Buffer API, for the browser",
+                "keywords": [
+                    "arraybuffer",
+                    "browser",
+                    "browserify",
+                    "buffer",
+                    "compatible",
+                    "dataview",
+                    "uint8array"
+                ],
+                "date": {
+                    "ts": 1606099887107,
+                    "rel": "3 years ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/buffer",
+                    "homepage": "https://github.com/feross/buffer",
+                    "repository": "https://github.com/feross/buffer",
+                    "bugs": "https://github.com/feross/buffer/issues"
+                },
+                "author": {
+                    "name": "Feross Aboukhadijeh",
+                    "email": "feross@feross.org",
+                    "url": "https://feross.org",
+                    "username": "feross"
+                },
+                "publisher": {
+                    "name": "feross",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9iNDk4ZDMzMDQxNjI3YjA3NzI2ZGMyOWMyOGYwMmRmNz9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.qQOjrcGbpfuM1Ifzanb-3HvYMYc1zmcL_lqLyZKNwsw",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9iNDk4ZDMzMDQxNjI3YjA3NzI2ZGMyOWMyOGYwMmRmNz9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.BuyYX-7mnzEvb98lZINDaJlq59wIO8lpCbAlxh-1LdQ",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9iNDk4ZDMzMDQxNjI3YjA3NzI2ZGMyOWMyOGYwMmRmNz9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.UHVZaiGMLvc9xvMFpr7kLYL5Hhmz4ij2oFPIpBQZZYI"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "feross",
+                        "email": "feross@feross.org"
+                    }
+                ],
+                "keywordsTruncated": false
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.5532444024909716,
+                "detail": {
+                    "quality": 0.6272554653806591,
+                    "popularity": 0.7421273955324672,
+                    "maintenance": 0.30092335554402977
+                }
+            },
+            "searchScore": 0.01696628
+        },
+        {
+            "package": {
+                "name": "tsconfig-paths",
+                "scope": "unscoped",
+                "version": "4.2.0",
+                "description": "Load node modules according to tsconfig paths, in run-time or via API.",
+                "date": {
+                    "ts": 1680122830433,
+                    "rel": "8 months ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/tsconfig-paths",
+                    "homepage": "https://github.com/dividab/tsconfig-paths#readme",
+                    "repository": "https://github.com/dividab/tsconfig-paths",
+                    "bugs": "https://github.com/dividab/tsconfig-paths/issues"
+                },
+                "author": {
+                    "name": "Jonas Kello"
+                },
+                "publisher": {
+                    "name": "jonaskello",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci80ZGI2ZmQ1Y2M5ZjBiMTI2ODJmYzY3MTk3MzZkZTE4MT9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.jl8gszLWYL1yzxz-BmL9HVRrHwg0jsl3K5K9WeF9Y5w",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci80ZGI2ZmQ1Y2M5ZjBiMTI2ODJmYzY3MTk3MzZkZTE4MT9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.Izc5yUtt5kBQMbjl_z_3yRJ4u4l35QjUqBfRJ2J9ggY",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci80ZGI2ZmQ1Y2M5ZjBiMTI2ODJmYzY3MTk3MzZkZTE4MT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.TI2Odn0zZCzEPbXh9Q8tEeVHdUA8B9j9xnXQVODrBuc"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "zlafil",
+                        "email": "zlatan.filipusic@divid.se"
+                    },
+                    {
+                        "username": "johkah",
+                        "email": "johan.kahlman@divid.se"
+                    },
+                    {
+                        "username": "dividstefansvensson",
+                        "email": "stefan.svensson@divid.se"
+                    },
+                    {
+                        "username": "erieng",
+                        "email": "erik.engvall@divid.se"
+                    },
+                    {
+                        "username": "johankristiansson",
+                        "email": "johan1kristiansson@gmail.com"
+                    },
+                    {
+                        "username": "adam.luotonen",
+                        "email": "adam.luotonen@divid.se"
+                    },
+                    {
+                        "username": "jonaskello",
+                        "email": "jonas.kello@gmail.com"
+                    },
+                    {
+                        "username": "jontem",
+                        "email": "jonathan.mourtada@gmail.com"
+                    },
+                    {
+                        "username": "bjolind",
+                        "email": "bjorn.lindberg@divid.se"
+                    },
+                    {
+                        "username": "geon",
+                        "email": "victor@topmost.se"
+                    },
+                    {
+                        "username": "marsve",
+                        "email": "martin.svensson@divid.se"
+                    },
+                    {
+                        "username": "henbr",
+                        "email": "henrik.brandt@protonmail.com"
+                    },
+                    {
+                        "username": "josef.dagson",
+                        "email": "josef.dagson@divid.se"
+                    },
+                    {
+                        "username": "oskdah",
+                        "email": "oskar.dahlin@divid.se"
+                    },
+                    {
+                        "username": "cspotcode",
+                        "email": "cspotcode@gmail.com"
+                    }
+                ],
+                "keywordsTruncated": false,
+                "keywords": []
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.5906783011957135,
+                "detail": {
+                    "quality": 0.9220907154899698,
+                    "popularity": 0.5680502440414734,
+                    "maintenance": 0.3292385746691627
+                }
+            },
+            "searchScore": 0.01473241
+        },
+        {
+            "package": {
+                "name": "jsdoc",
+                "scope": "unscoped",
+                "version": "4.0.2",
+                "description": "An API documentation generator for JavaScript.",
+                "keywords": [
+                    "documentation",
+                    "javascript"
+                ],
+                "date": {
+                    "ts": 1676847977958,
+                    "rel": "10 months ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/jsdoc",
+                    "homepage": "https://github.com/jsdoc/jsdoc#readme",
+                    "repository": "https://github.com/jsdoc/jsdoc",
+                    "bugs": "https://github.com/jsdoc/jsdoc/issues"
+                },
+                "author": {
+                    "name": "Michael Mathews",
+                    "email": "micmath@gmail.com"
+                },
+                "publisher": {
+                    "name": "hegemonic",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci82Nzk2MGIyNWI1NjI3YmQ3NTVhMjUyNzg3MDM0OWFlOT9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.bnTw0oXizbXYs_kX3cgUFQ5s63VfdoEiq1JHgWbiGEE",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci82Nzk2MGIyNWI1NjI3YmQ3NTVhMjUyNzg3MDM0OWFlOT9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.I-wLSSUQzAHQwL6uMfuJeCSxsXUg1T8nL5MQGKvDomE",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci82Nzk2MGIyNWI1NjI3YmQ3NTVhMjUyNzg3MDM0OWFlOT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.ZK5HGbuS2SlfiYeqaiv4yQWVHxzO1XGgevFdFFX2a30"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "hegemonic",
+                        "email": "jeffrey.l.williams@gmail.com"
+                    }
+                ],
+                "keywordsTruncated": false
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.5652078855474216,
+                "detail": {
+                    "quality": 0.881760587371321,
+                    "popularity": 0.5702878485519495,
+                    "maintenance": 0.28879703526526596
+                }
+            },
+            "searchScore": 0.012513093
+        },
+        {
+            "package": {
+                "name": "safe-buffer",
+                "scope": "unscoped",
+                "version": "5.2.1",
+                "description": "Safer Node.js Buffer API",
+                "keywords": [
+                    "buffer",
+                    "buffer allocate",
+                    "node security",
+                    "safe",
+                    "safe-buffer",
+                    "security",
+                    "uninitialized"
+                ],
+                "date": {
+                    "ts": 1589128650776,
+                    "rel": "4 years ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/safe-buffer",
+                    "homepage": "https://github.com/feross/safe-buffer",
+                    "repository": "https://github.com/feross/safe-buffer",
+                    "bugs": "https://github.com/feross/safe-buffer/issues"
+                },
+                "author": {
+                    "name": "Feross Aboukhadijeh",
+                    "email": "feross@feross.org",
+                    "url": "https://feross.org",
+                    "username": "feross"
+                },
+                "publisher": {
+                    "name": "feross",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9iNDk4ZDMzMDQxNjI3YjA3NzI2ZGMyOWMyOGYwMmRmNz9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.qQOjrcGbpfuM1Ifzanb-3HvYMYc1zmcL_lqLyZKNwsw",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9iNDk4ZDMzMDQxNjI3YjA3NzI2ZGMyOWMyOGYwMmRmNz9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.BuyYX-7mnzEvb98lZINDaJlq59wIO8lpCbAlxh-1LdQ",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9iNDk4ZDMzMDQxNjI3YjA3NzI2ZGMyOWMyOGYwMmRmNz9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.UHVZaiGMLvc9xvMFpr7kLYL5Hhmz4ij2oFPIpBQZZYI"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "feross",
+                        "email": "feross@feross.org"
+                    },
+                    {
+                        "username": "mafintosh",
+                        "email": "mathiasbuus@gmail.com"
+                    }
+                ],
+                "keywordsTruncated": false
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.5355186846093554,
+                "detail": {
+                    "quality": 0.6272554653806591,
+                    "popularity": 0.691482487299278,
+                    "maintenance": 0.30092335554402977
+                }
+            },
+            "searchScore": 0.011139499
+        },
+        {
+            "package": {
+                "name": "function.prototype.name",
+                "scope": "unscoped",
+                "version": "1.1.6",
+                "description": "An ES2015 spec-compliant `Function.prototype.name` shim",
+                "keywords": [
+                    "Function.prototype.name",
+                    "function",
+                    "name",
+                    "ES6",
+                    "ES2015",
+                    "shim",
+                    "polyfill",
+                    "es-shim API"
+                ],
+                "date": {
+                    "ts": 1693241033198,
+                    "rel": "3 months ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/function.prototype.name",
+                    "homepage": "https://github.com/es-shims/Function.prototype.name#readme",
+                    "repository": "https://github.com/es-shims/Function.prototype.name",
+                    "bugs": "https://github.com/es-shims/Function.prototype.name/issues"
+                },
+                "author": {
+                    "name": "Jordan Harband",
+                    "email": "ljharb@gmail.com",
+                    "username": "ljharb"
+                },
+                "publisher": {
+                    "name": "ljharb",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.NDVx82tXkJjt2pEPIKQWZgeRdEaHJMZDGFeHTsyexhI",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.nCHcIiwqSZvKcrmxYjUNs2EAv6uY4Nh7I0pfn78b8fo",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.40Yl7FmoFTPGitbOAzR5joAcEaP-NQ3mRVzI5h5ok-g"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "ljharb",
+                        "email": "ljharb@gmail.com"
+                    }
+                ],
+                "keywordsTruncated": false
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.5725890204361597,
+                "detail": {
+                    "quality": 0.9890616312139091,
+                    "popularity": 0.45936267164962646,
+                    "maintenance": 0.3288388456989075
+                }
+            },
+            "searchScore": 0.011003299
+        },
+        {
+            "package": {
+                "name": "express",
+                "scope": "unscoped",
+                "version": "4.18.2",
+                "description": "Fast, unopinionated, minimalist web framework",
+                "keywords": [
+                    "express",
+                    "framework",
+                    "sinatra",
+                    "web",
+                    "http",
+                    "rest",
+                    "restful",
+                    "router",
+                    "app",
+                    "api"
+                ],
+                "date": {
+                    "ts": 1665260072495,
+                    "rel": "a year ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/express",
+                    "homepage": "http://expressjs.com/",
+                    "repository": "https://github.com/expressjs/express",
+                    "bugs": "https://github.com/expressjs/express/issues"
+                },
+                "author": {
+                    "name": "TJ Holowaychuk",
+                    "email": "tj@vision-media.ca"
+                },
+                "publisher": {
+                    "name": "dougwilson",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9jNGI2NGM2ZTQ3ZDk3MGJiMGQwN2EyYjlkNTU5YmU5Yj9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.PysVThLy9zc22g8f3XWGCfhIBy_bxYGq4JAOjJCj3xk",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9jNGI2NGM2ZTQ3ZDk3MGJiMGQwN2EyYjlkNTU5YmU5Yj9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.ZeonFS6TwW0dU2SP3rlwy8z2Lgbr0Oer2Sbxk_lP7wU",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9jNGI2NGM2ZTQ3ZDk3MGJiMGQwN2EyYjlkNTU5YmU5Yj9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.33118tak2geRnGAjD7hQvtEAyPzdVpUNLfkkO6nVh5c"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "mikeal",
+                        "email": "mikeal.rogers@gmail.com"
+                    },
+                    {
+                        "username": "dougwilson",
+                        "email": "doug@somethingdoug.com"
+                    }
+                ],
+                "keywordsTruncated": false
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.4954627877290065,
+                "detail": {
+                    "quality": 0.44777964031414713,
+                    "popularity": 0.8959370654746767,
+                    "maintenance": 0.13585977919607292
+                }
+            },
+            "searchScore": 0.010633674
+        },
+        {
+            "package": {
+                "name": "object-is",
+                "scope": "unscoped",
+                "version": "1.1.5",
+                "description": "ES2015-compliant shim for Object.is - differentiates between -0 and +0",
+                "keywords": [
+                    "is",
+                    "Object.is",
+                    "equality",
+                    "sameValueZero",
+                    "ES6",
+                    "ES2015",
+                    "shim",
+                    "polyfill",
+                    "es-shim API"
+                ],
+                "date": {
+                    "ts": 1613857508953,
+                    "rel": "3 years ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/object-is",
+                    "homepage": "https://github.com/es-shims/object-is",
+                    "repository": "https://github.com/es-shims/object-is",
+                    "bugs": "https://github.com/es-shims/object-is/issues"
+                },
+                "author": {
+                    "name": "Jordan Harband"
+                },
+                "publisher": {
+                    "name": "ljharb",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.NDVx82tXkJjt2pEPIKQWZgeRdEaHJMZDGFeHTsyexhI",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.nCHcIiwqSZvKcrmxYjUNs2EAv6uY4Nh7I0pfn78b8fo",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.40Yl7FmoFTPGitbOAzR5joAcEaP-NQ3mRVzI5h5ok-g"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "ljharb",
+                        "email": "ljharb@gmail.com"
+                    },
+                    {
+                        "username": "substack",
+                        "email": "substack@gmail.com"
+                    }
+                ],
+                "keywordsTruncated": false
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.5676364861495565,
+                "detail": {
+                    "quality": 0.9890616312139091,
+                    "popularity": 0.47312806384278105,
+                    "maintenance": 0.30092335554402977
+                }
+            },
+            "searchScore": 0.0100422865
+        },
+        {
+            "package": {
+                "name": "string.prototype.trim",
+                "scope": "unscoped",
+                "version": "1.2.8",
+                "description": "ES5 spec-compliant shim for String.prototype.trim",
+                "keywords": [
+                    "String.prototype.trim",
+                    "string",
+                    "ES5",
+                    "shim",
+                    "trim",
+                    "polyfill",
+                    "es-shim API"
+                ],
+                "date": {
+                    "ts": 1694106436812,
+                    "rel": "3 months ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/string.prototype.trim",
+                    "homepage": "https://github.com/es-shims/String.prototype.trim#readme",
+                    "repository": "https://github.com/es-shims/String.prototype.trim",
+                    "bugs": "https://github.com/es-shims/String.prototype.trim/issues"
+                },
+                "author": {
+                    "name": "Jordan Harband",
+                    "email": "ljharb@gmail.com",
+                    "url": "http://ljharb.codes",
+                    "username": "ljharb"
+                },
+                "publisher": {
+                    "name": "ljharb",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.NDVx82tXkJjt2pEPIKQWZgeRdEaHJMZDGFeHTsyexhI",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.nCHcIiwqSZvKcrmxYjUNs2EAv6uY4Nh7I0pfn78b8fo",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.40Yl7FmoFTPGitbOAzR5joAcEaP-NQ3mRVzI5h5ok-g"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "ljharb",
+                        "email": "ljharb@gmail.com"
+                    }
+                ],
+                "keywordsTruncated": false
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.5672059596430363,
+                "detail": {
+                    "quality": 0.9890616312139091,
+                    "popularity": 0.4435282194100942,
+                    "maintenance": 0.32929312424380214
+                }
+            },
+            "searchScore": 0.0098207565
+        },
+        {
+            "package": {
+                "name": "dayjs",
+                "scope": "unscoped",
+                "version": "1.11.10",
+                "description": "2KB immutable date time library alternative to Moment.js with the same modern API",
+                "keywords": [
+                    "dayjs",
+                    "date",
+                    "time",
+                    "immutable",
+                    "moment"
+                ],
+                "date": {
+                    "ts": 1695132440710,
+                    "rel": "3 months ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/dayjs",
+                    "homepage": "https://day.js.org",
+                    "repository": "https://github.com/iamkun/dayjs",
+                    "bugs": "https://github.com/iamkun/dayjs/issues"
+                },
+                "author": {
+                    "name": "iamkun"
+                },
+                "publisher": {
+                    "name": "iamkun",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8wYWUzMWQyNDI3NWI0NTJiZmVlODZiMzRjZTBkM2UxOD9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.oHz_gisFByyMkObN6T6Lh8buom76fjORjE906ZsA1wA",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8wYWUzMWQyNDI3NWI0NTJiZmVlODZiMzRjZTBkM2UxOD9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.OQS76Yv9SxknhaWnPwpTRI3aiCmDKQke-FA6vZWdH6E",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8wYWUzMWQyNDI3NWI0NTJiZmVlODZiMzRjZTBkM2UxOD9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.GlAUlD4skdUdpZZpuK-E54tdl2C5SbK5e48NAAJ7NuE"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "iamkun",
+                        "email": "kunhello@outlook.com"
+                    }
+                ],
+                "keywordsTruncated": false
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.5510313771327046,
+                "detail": {
+                    "quality": 0.6395001497108008,
+                    "popularity": 0.6931987716281073,
+                    "maintenance": 0.33303360614179073
+                }
+            },
+            "searchScore": 0.009770008
+        },
+        {
+            "package": {
+                "name": "regexp.prototype.flags",
+                "scope": "unscoped",
+                "version": "1.5.1",
+                "description": "ES6 spec-compliant RegExp.prototype.flags shim.",
+                "keywords": [
+                    "RegExp.prototype.flags",
+                    "regex",
+                    "regular expression",
+                    "ES6",
+                    "shim",
+                    "flag",
+                    "flags",
+                    "regexp",
+                    "RegExp#flags",
+                    "polyfill",
+                    "es-shim API"
+                ],
+                "date": {
+                    "ts": 1694582948020,
+                    "rel": "3 months ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/regexp.prototype.flags",
+                    "homepage": "https://github.com/es-shims/RegExp.prototype.flags#readme",
+                    "repository": "https://github.com/es-shims/RegExp.prototype.flags",
+                    "bugs": "https://github.com/es-shims/RegExp.prototype.flags/issues"
+                },
+                "author": {
+                    "name": "Jordan Harband",
+                    "email": "ljharb@gmail.com",
+                    "username": "ljharb"
+                },
+                "publisher": {
+                    "name": "ljharb",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.NDVx82tXkJjt2pEPIKQWZgeRdEaHJMZDGFeHTsyexhI",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.nCHcIiwqSZvKcrmxYjUNs2EAv6uY4Nh7I0pfn78b8fo",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.40Yl7FmoFTPGitbOAzR5joAcEaP-NQ3mRVzI5h5ok-g"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "ljharb",
+                        "email": "ljharb@gmail.com"
+                    }
+                ],
+                "keywordsTruncated": false
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.5748555338779986,
+                "detail": {
+                    "quality": 0.9890616312139091,
+                    "popularity": 0.463932720093656,
+                    "maintenance": 0.3307445499458466
+                }
+            },
+            "searchScore": 0.0092166895
+        },
+        {
+            "package": {
+                "name": "array-includes",
+                "scope": "unscoped",
+                "version": "3.1.7",
+                "description": "An ES7/ES2016 spec-compliant `Array.prototype.includes` shim/polyfill/replacement that works as far down as ES3.",
+                "keywords": [
+                    "Array.prototype.includes",
+                    "includes",
+                    "array",
+                    "ES7",
+                    "shim",
+                    "polyfill",
+                    "contains",
+                    "Array.prototype.contains",
+                    "es-shim API"
+                ],
+                "date": {
+                    "ts": 1693769694507,
+                    "rel": "3 months ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/array-includes",
+                    "homepage": "https://github.com/es-shims/array-includes#readme",
+                    "repository": "https://github.com/es-shims/array-includes",
+                    "bugs": "https://github.com/es-shims/array-includes/issues"
+                },
+                "author": {
+                    "name": "Jordan Harband",
+                    "email": "ljharb@gmail.com",
+                    "url": "http://ljharb.codes",
+                    "username": "ljharb"
+                },
+                "publisher": {
+                    "name": "ljharb",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.NDVx82tXkJjt2pEPIKQWZgeRdEaHJMZDGFeHTsyexhI",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.nCHcIiwqSZvKcrmxYjUNs2EAv6uY4Nh7I0pfn78b8fo",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.40Yl7FmoFTPGitbOAzR5joAcEaP-NQ3mRVzI5h5ok-g"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "ljharb",
+                        "email": "ljharb@gmail.com"
+                    }
+                ],
+                "keywordsTruncated": false
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.5682614125545187,
+                "detail": {
+                    "quality": 0.9890616312139091,
+                    "popularity": 0.44654379915718656,
+                    "maintenance": 0.32929312424380214
+                }
+            },
+            "searchScore": 0.009108897
+        },
+        {
+            "package": {
+                "name": "array.prototype.flatmap",
+                "scope": "unscoped",
+                "version": "1.3.2",
+                "description": "An ES2019 spec-compliant `Array.prototype.flatMap` shim/polyfill/replacement that works as far down as ES3.",
+                "keywords": [
+                    "Array.prototype.flatMap",
+                    "flatMap",
+                    "array",
+                    "ESnext",
+                    "shim",
+                    "polyfill",
+                    "flatten",
+                    "Array.prototype.flatten",
+                    "es-shim API"
+                ],
+                "date": {
+                    "ts": 1694059620782,
+                    "rel": "3 months ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/array.prototype.flatmap",
+                    "homepage": "https://github.com/es-shims/Array.prototype.flatMap#readme",
+                    "repository": "https://github.com/es-shims/Array.prototype.flatMap",
+                    "bugs": "https://github.com/es-shims/Array.prototype.flatMap/issues"
+                },
+                "author": {
+                    "name": "Jordan Harband",
+                    "email": "ljharb@gmail.com",
+                    "url": "http://ljharb.codes",
+                    "username": "ljharb"
+                },
+                "publisher": {
+                    "name": "ljharb",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.NDVx82tXkJjt2pEPIKQWZgeRdEaHJMZDGFeHTsyexhI",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.nCHcIiwqSZvKcrmxYjUNs2EAv6uY4Nh7I0pfn78b8fo",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.40Yl7FmoFTPGitbOAzR5joAcEaP-NQ3mRVzI5h5ok-g"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "ljharb",
+                        "email": "ljharb@gmail.com"
+                    }
+                ],
+                "keywordsTruncated": false
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.5654169548971608,
+                "detail": {
+                    "quality": 0.9890616312139091,
+                    "popularity": 0.43841677727902106,
+                    "maintenance": 0.32929312424380214
+                }
+            },
+            "searchScore": 0.00833247
+        },
+        {
+            "package": {
+                "name": "object.hasown",
+                "scope": "unscoped",
+                "version": "1.1.3",
+                "description": "ES spec-compliant shim for Object.hasOwn",
+                "keywords": [
+                    "Object",
+                    "hasOwn",
+                    "polyfill",
+                    "shim",
+                    "es-shim API"
+                ],
+                "date": {
+                    "ts": 1693240272074,
+                    "rel": "3 months ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/object.hasown",
+                    "homepage": "https://github.com/es-shims/Object.hasOwn",
+                    "repository": "https://github.com/es-shims/Object.hasOwn",
+                    "bugs": "https://github.com/es-shims/Object.hasOwn/issues"
+                },
+                "author": {
+                    "name": "Jordan Harband",
+                    "email": "ljharb@gmail.com",
+                    "username": "ljharb"
+                },
+                "publisher": {
+                    "name": "ljharb",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.NDVx82tXkJjt2pEPIKQWZgeRdEaHJMZDGFeHTsyexhI",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.nCHcIiwqSZvKcrmxYjUNs2EAv6uY4Nh7I0pfn78b8fo",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.40Yl7FmoFTPGitbOAzR5joAcEaP-NQ3mRVzI5h5ok-g"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "ljharb",
+                        "email": "ljharb@gmail.com"
+                    }
+                ],
+                "keywordsTruncated": false
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.5560207696672277,
+                "detail": {
+                    "quality": 0.9890616312139091,
+                    "popularity": 0.41157053376492614,
+                    "maintenance": 0.32929312424380214
+                }
+            },
+            "searchScore": 0.007777503
+        },
+        {
+            "package": {
+                "name": "node-fetch",
+                "scope": "unscoped",
+                "version": "3.3.2",
+                "description": "A light-weight module that brings Fetch API to node.js",
+                "keywords": [
+                    "fetch",
+                    "http",
+                    "promise",
+                    "request",
+                    "curl",
+                    "wget",
+                    "xhr",
+                    "whatwg"
+                ],
+                "date": {
+                    "ts": 1690285817626,
+                    "rel": "4 months ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/node-fetch",
+                    "homepage": "https://github.com/node-fetch/node-fetch",
+                    "repository": "https://github.com/node-fetch/node-fetch",
+                    "bugs": "https://github.com/node-fetch/node-fetch/issues"
+                },
+                "author": {
+                    "name": "David Frank"
+                },
+                "publisher": {
+                    "name": "node-fetch-bot",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8wNTliMTdjNDdkYWZmMDBjYzNhMWIxZjdmOTE1NDdjYT9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.BBP1kMW9Goefj_8St1WSq4MxAFmArRAYMBBfLlY1smo",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8wNTliMTdjNDdkYWZmMDBjYzNhMWIxZjdmOTE1NDdjYT9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.FvFoyv-0mLXbAeaOZvP8x-HfVCWndFor0DopnyGbfH0",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8wNTliMTdjNDdkYWZmMDBjYzNhMWIxZjdmOTE1NDdjYT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.adh5wjyjie_Is8EGTOIgW__z6eOKtx9nzN_N2HQZ3oU"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "endless",
+                        "email": "jimmy@warting.se"
+                    },
+                    {
+                        "username": "bitinn",
+                        "email": "bitinn@gmail.com"
+                    },
+                    {
+                        "username": "timothygu",
+                        "email": "timothygu99@gmail.com"
+                    },
+                    {
+                        "username": "akepinski",
+                        "email": "npm@kepinski.ch"
+                    },
+                    {
+                        "username": "node-fetch-bot",
+                        "email": "jimmy+node-fetch@warting.se"
+                    }
+                ],
+                "keywordsTruncated": false
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.5049589879846614,
+                "detail": {
+                    "quality": 0.2744737729901553,
+                    "popularity": 0.8741561595801395,
+                    "maintenance": 0.33332057209876015
+                }
+            },
+            "searchScore": 0.0076559936
+        },
+        {
+            "package": {
+                "name": "object.entries",
+                "scope": "unscoped",
+                "version": "1.1.7",
+                "description": "ES2017 spec-compliant Object.entries shim.",
+                "keywords": [
+                    "Object.entries",
+                    "Object.values",
+                    "Object.keys",
+                    "entries",
+                    "values",
+                    "ES7",
+                    "ES8",
+                    "ES2017",
+                    "shim",
+                    "object",
+                    "keys",
+                    "polyfill",
+                    "es-shim API"
+                ],
+                "date": {
+                    "ts": 1693199393208,
+                    "rel": "3 months ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/object.entries",
+                    "homepage": "https://github.com/es-shims/Object.entries#readme",
+                    "repository": "https://github.com/es-shims/Object.entries",
+                    "bugs": "https://github.com/es-shims/Object.entries/issues"
+                },
+                "author": {
+                    "name": "Jordan Harband"
+                },
+                "publisher": {
+                    "name": "ljharb",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.NDVx82tXkJjt2pEPIKQWZgeRdEaHJMZDGFeHTsyexhI",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.nCHcIiwqSZvKcrmxYjUNs2EAv6uY4Nh7I0pfn78b8fo",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.40Yl7FmoFTPGitbOAzR5joAcEaP-NQ3mRVzI5h5ok-g"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "ljharb",
+                        "email": "ljharb@gmail.com"
+                    }
+                ],
+                "keywordsTruncated": false
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.5678733013155108,
+                "detail": {
+                    "quality": 0.9890616312139091,
+                    "popularity": 0.4456568860486686,
+                    "maintenance": 0.3290711480980118
+                }
+            },
+            "searchScore": 0.0074740006
+        },
+        {
+            "package": {
+                "name": "object.fromentries",
+                "scope": "unscoped",
+                "version": "2.0.7",
+                "description": "ES proposal-spec-compliant Object.fromEntries shim.",
+                "keywords": [
+                    "Object.fromEntries",
+                    "Object.entries",
+                    "Object.values",
+                    "Object.keys",
+                    "entries",
+                    "values",
+                    "ES7",
+                    "ES8",
+                    "ES2017",
+                    "shim",
+                    "object",
+                    "keys",
+                    "polyfill",
+                    "es-shim API"
+                ],
+                "date": {
+                    "ts": 1693282738207,
+                    "rel": "3 months ago"
+                },
+                "links": {
+                    "npm": "https://www.npmjs.com/package/object.fromentries",
+                    "homepage": "https://github.com/es-shims/Object.fromEntries#readme",
+                    "repository": "https://github.com/es-shims/Object.fromEntries",
+                    "bugs": "https://github.com/es-shims/Object.fromEntries/issues"
+                },
+                "author": {
+                    "name": "Jordan Harband",
+                    "email": "ljharb@gmail.com",
+                    "username": "ljharb"
+                },
+                "publisher": {
+                    "name": "ljharb",
+                    "avatars": {
+                        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.NDVx82tXkJjt2pEPIKQWZgeRdEaHJMZDGFeHTsyexhI",
+                        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.nCHcIiwqSZvKcrmxYjUNs2EAv6uY4Nh7I0pfn78b8fo",
+                        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.40Yl7FmoFTPGitbOAzR5joAcEaP-NQ3mRVzI5h5ok-g"
+                    }
+                },
+                "maintainers": [
+                    {
+                        "username": "ljharb",
+                        "email": "ljharb@gmail.com"
+                    }
+                ],
+                "keywordsTruncated": false
+            },
+            "flags": {
+                "insecure": 0
+            },
+            "score": {
+                "final": 0.5690239518334953,
+                "detail": {
+                    "quality": 0.9890616312139091,
+                    "popularity": 0.4489444589571957,
+                    "maintenance": 0.3290711480980118
+                }
+            },
+            "searchScore": 0.0074309534
+        }
+    ],
+    "total": 110340,
+    "time": "Sat Dec 09 2023 23:01:23 GMT+0000 (Coordinated Universal Time)",
+    "pagination": {
+        "perPage": 20,
+        "page": 0
+    },
+    "url": "/search?q=api",
+    "user": null,
+    "auditLogEnabled": false,
+    "userEmailVerified": null,
+    "csrftoken": "HzK2YfrBNUkVR6r4M6h0clCwOmcCSnGDU_YanLgOvRT",
+    "notifications": [],
+    "npmExpansions": [
+        "Novice Prime Minister",
+        "Neanderthal Pudding Mix",
+        "No Padding Module",
+        "No Password Management",
+        "Nestable Processes Mutate",
+        "Normally Palatable Mango",
+        "Nutella Pancake Machine",
+        "Network Performance Monitor",
+        "Neatly Positioned Magazines",
+        "Nacho Pace Maker"
+    ]
+}

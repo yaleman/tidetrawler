@@ -43,33 +43,40 @@ impl From<IndexPackage> for Package {
             url: Some(format!("https://crates.io/crates/{}", pkg.name)),
             owner: None,
             other_metadata,
-            repo_type: crate::RepoType::Cargo,
+            repo_type: RepoType::Cargo,
         }
     }
 }
 
 #[derive(Debug)]
-pub struct Cargo;
+pub struct Cargo {
+    cache: Arc<RwLock<Cache>>,
+}
 
 #[async_trait]
 impl Repository for Cargo {
-    fn new() -> Self {
-        Self {}
+    fn new(cache: Arc<RwLock<Cache>>) -> Self {
+        Self { cache }
     }
 
-    fn repo_type() -> crate::RepoType {
-        crate::RepoType::Cargo
+    fn repo_type() -> RepoType {
+        RepoType::Cargo
     }
 
-    async fn search(&self, query: &str) -> Result<Vec<Package>, Errors> {
+    async fn search(&mut self, query: &str) -> Result<Vec<Package>, Errors> {
         let mut url = reqwest::Url::from_str(CARGO_API_URL)
             .expect("Failed to turn static crates URL into a URL object!");
         url.query_pairs_mut().append_pair("q", query);
 
-        let res = WebClient::default().client.get(url).send().await?;
         let mut packages = Vec::new();
-
-        let cratedata: CratesResponse = res.json().await?;
+        let cratedata: CratesResponse =
+            match self.cache.read().await.get_cache(url.as_ref(), None, None) {
+                Some(val) => serde_json::from_str(&val.content)?,
+                None => {
+                    let res = WebClient::default().client.get(url).send().await?;
+                    res.json().await?
+                }
+            };
 
         if let Some(crates) = cratedata.crates {
             for crt in crates {
@@ -85,7 +92,7 @@ impl Repository for Cargo {
         "crates/".to_string()
     }
 
-    async fn get_package(&self, name: &str) -> Result<Vec<Package>, Errors> {
+    async fn get_package(&mut self, name: &str) -> Result<Vec<Package>, Errors> {
         let url = if name.is_empty() {
             return Err(Errors::Generic("Specify a name!".to_string()));
         } else if name.len() < 5 {
